@@ -1,0 +1,52 @@
+<fop version="1.0">
+<renderers>
+	<renderer mime="application/pdf">
+<fonts>
+  <!-- register all the fonts in a directory -->
+  <directory>C:\WINDOWS\Fonts</directory>
+  <!-- register a particular font
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/IDAutomationC128XL.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/IDAutomationC128XL.ttf">
+     <font-triplet name="IDAutomationC128XL" style="normal" weight="normal"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/Arial.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/ARIAL.TTF">
+     <font-triplet name="Arial" style="normal" weight="normal"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/ArialBold.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/ARIALBD.TTF">
+     <font-triplet name="Arial" style="normal" weight="bold"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/Tahoma.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/TAHOMA.TTF">
+     <font-triplet name="Tahoma" style="normal" weight="normal"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/TahomaBold.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/TAHOMABD.TTF">
+     <font-triplet name="Tahoma" style="normal" weight="bold"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/Lucida.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/lsans.TTF">
+     <font-triplet name="Lucida" style="normal" weight="normal"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/LucidaD.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/lsansd.TTF">
+     <font-triplet name="Lucida" style="normal" weight="bold"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/LucidaI.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/lsansi.TTF">
+     <font-triplet name="Lucida" style="italic" weight="normal"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/LucidaDI.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/lsansdi.TTF">
+     <font-triplet name="Lucida" style="italic" weight="bold"/>
+  </font>
+  <font metrics-url="file:///H:/bluewhale/apache-tomcat-5.5.27/webapps/GEOWEB/Config/MSsansSerif.xml" kerning="yes"
+      embed-url="file:///C:/WINDOWS/Fonts/MICROSS.TTF">
+     <font-triplet name="Lucida" style="normal" weight="normal"/>
+  </font>
+  -->
+</fonts>
+</renderer>
+</renderers>
+</fop>
