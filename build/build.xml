@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GEOWEB" default="buildwar-geoweb" basedir="..">
+<property name="war.name" value="GEOWEB.war"/>
+<property name="geowww.dir" value="\\geowww\d$\bluewhale\apache-tomcat-6.0.26\webapps"/>
+	
+
+<target name="buildwar-geoweb" description="war pour GEOWEB">
+	<copy  overwrite="true" file="build/test.txt" tofile="tmppdf/test.txt"/>
+	<copy  overwrite="true" file="build/test.txt" tofile="tmpxml/test.txt"/>
+	<copy  overwrite="true" file="build/test.txt" tofile="tmpfiles/test.txt"/>
+	<delete verbose="true" file="build/${war.name}"/>
+ 	<war destfile="build/${war.name}" webxml="WEB-INF/web.xml">
+	  <zipfileset  dir="html" prefix="html">
+	  	<exclude name="**/test/*"/>
+	  </zipfileset>
+		<!-- le fichier test.txt est là juste pour que dans le war le repertoire soit present -->
+	  <zipfileset dir="tmpxml" prefix="tmpxml">
+		<include name="test.txt"/> 
+	  	<include name="cache_palette.html"/> <!-- liste des codes palettes -->
+	  </zipfileset>
+	  <zipfileset dir="tmppdf" prefix="tmppdf">
+		<include name="test.txt"/>
+	  </zipfileset>
+	  <zipfileset dir="tmpfiles" prefix="tmpfiles">
+		<include name="test.txt"/>
+	  </zipfileset>
+	  
+	  <zipfileset dir="js" prefix="js"/>
+	  <zipfileset dir="images" prefix="images"/>
+	  <zipfileset dir="jsp" prefix="jsp"/>
+	  <zipfileset dir="css" prefix="css"/>
+	  <zipfileset dir="Config" prefix="Config"/>
+	  <zipfileset dir="xsl" prefix="xsl">
+			<exclude name="**/OLD/*"/>
+			<include name="**/*.xsl"/>
+	  </zipfileset>
+	  <lib dir="WEB-INF/lib"/>
+	  <classes dir="WEB-INF/classes">
+		<include name="PBBusiness.properties"/>
+		<include name="PBMessages.properties"/>
+		<include name="**/*.class"/>
+	  </classes>
+	</war> 
+</target>
+
+<target name="livrer-sur-GEOWWW" description="Livraison de GEOWEB sur la machine GEOWWW">
+
+	<delete verbose="true" file="${geowww.dir}/${war.name}"/>
+	<delete dir="${geowww.dir}/GEOWEB"/>
+	<copy  overwrite="true" file="build/${war.name}" tofile="${geowww.dir}/${war.name}"/>
+
+
+</target>
+
+</project>
