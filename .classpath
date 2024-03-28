@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jasper.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/log4j-1.2.7.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/fop.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/libFOTransformer.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/librairieBW.jar" sourcepath="/LIBRAIRIES/src"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/dsn.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/imap.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/pop3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/smtp.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>
