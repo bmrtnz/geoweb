@@ -1,0 +1,47 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta CONTENT="-1" http-equiv="Expires"/>
+<meta CONTENT="no-cache" http-equiv="Cache-Control"/>
+<meta CONTENT="no-cache" http-equiv="Pragma"/>
+<link type="text/css" rel="stylesheet" href="../css/tools.css"/>
+<script type="text/javascript" src="../js/tools.js">
+</script>
+</head>
+<body topmargin="0" onload="switchFrameLocation(top.frame_form);">
+<form action="/PBServlet" method="post" style="background-color:#FFFFFF" name="form_saisie" target="hiddenframe">
+<input name="httpPBCommand" type="hidden" value="connexion"/>
+<div class="header1">demande de connexion</div>
+<table bordercolor="red" border="0" cellpadding="0" cellspacing="0">
+<tr style="font-style:italic" class="myrow">
+<td>veuillez saisir votre identifiant et votre mot de passe</td>
+</tr>
+</table>
+<br/>
+<table>
+<tr>
+<td class="myrow">identifiant</td>
+<td>
+<input type="text" style="font-size:14;" class="inputText" name="user_0" id="user_0" size="16" maxlength="16" value="" tabindex=""/>
+</td>
+</tr>
+<tr>
+<td class="myrow">mot de passe</td>
+<td>
+<input type="password" style="font-size:14;" class="inputText" name="pwd_0" id="pwd_0" size="16" maxlength="16" value="" tabindex=""/>
+</td>
+</tr>
+</table>
+<br/>
+<input value="" name="which_button" type="hidden"/>
+<a href="#">
+<img border="0" style="cursor:hand" onclick="document.getElementById('waitmessage').style.visibility='visible';document.form_saisie.which_button.value='connexion';document.form_saisie.submit();" src="../images/connexion-on.gif" title="" onmouseover="this.src='../images/connexion.gif';window.status='';return true" onmouseout="this.src='../images/connexion-on.gif'"/>
+</a>
+</form>
+<div class="divwait" name="waitmessage" id="waitmessage" style="visibility:hidden">
+<div class="titreWait">Requ&ecirc;te en cours</div>
+<img src="../images/loading.gif"/> Merci de patienter
+</div>
+<div class="diverror" name="errormessage" id="errormessage" style="visibility:hidden"/>
+</body>
+</html>

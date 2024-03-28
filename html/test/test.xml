@@ -1,0 +1,47 @@
+<header.1>
+<detail>
+<action><link lib="centennial" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=APY B" /></action>
+<nil></nil>
+<contexte>CENTENNIAL</contexte>
+</detail>
+<detail>
+<action><link lib="raisin a.lavallee" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=ALPLAV" /></action>
+<nil></nil>
+<contexte>RAISIN A.LAVALLEE</contexte>
+</detail>
+<detail>
+<action><link lib="raisin a.lavallee + danlas" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=LAVDAN" /></action>
+<nil></nil>
+<contexte>RAISIN A.LAVALLEE + DANLAS</contexte>
+</detail>
+<detail>
+<action><link lib="raisin chasselas" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=CHASSE" /></action>
+<nil></nil>
+<contexte>RAISIN CHASSELAS</contexte>
+</detail>
+<detail>
+<action><link lib="raisin danlas" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=DANLAS" /></action>
+<nil></nil>
+<contexte>RAISIN DANLAS</contexte>
+</detail>
+<detail>
+<action><link lib="raisin ideal" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=IDEAL" /></action>
+<nil></nil>
+<contexte>RAISIN IDEAL</contexte>
+</detail>
+<detail>
+<action><link lib="raisin muscat" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=MUSCAT" /></action>
+<nil></nil>
+<contexte>RAISIN MUSCAT</contexte>
+</detail>
+<detail>
+<action><link lib="raisin prima" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=PRIMA" /></action>
+<nil></nil>
+<contexte>RAISIN PRIMA</contexte>
+</detail>
+<detail>
+<action><link lib="raisin ribol" url="PBServlet?httpPBCommand=clic_variet&amp;var_code=RIBOL" /></action>
+<nil></nil>
+<contexte>RAISIN RIBOL</contexte>
+</detail>
+</header.1>

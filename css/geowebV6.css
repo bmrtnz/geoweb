@@ -1,0 +1,810 @@
+body {
+		font:normal 11px Courier, Arial, Verdana, Helvetica, sans-serif;
+		/* background-color: #ece9d8 */
+		background-color:#FFFFFF;
+		/* background: url(../images/pomme.gif) right 20px  repeat-y; */
+	}
+	
+.geoBodyLogin{
+	/* background:url('../images/fondHaut.jpg') no-repeat  scroll  0px 0px; */
+}
+
+.geoBody {
+}
+
+/* couleur blanche et pas transparente pour le fond des dialogues */
+#geoChoixOrdreDialog,#geoTraceabiliteDialog {
+background:white;	!important
+}
+
+/* couleur blanche et pas transparente pour le fond des calendriers */
+.ui-datepicker-calendar {
+        background-color:white;
+        
+}
+.ui-multiselect-checkboxes {
+	        background-color:white;
+	}
+.jcalendrier {
+	font:normal 10px Courier, Arial, Verdana, Helvetica, sans-serif;
+}
+
+.ui-jqgrid-titlebar {
+	height:18px;
+}
+
+	/* commun aux diff�rentes grilles de largeur 100% */
+	.geoGrille100 {
+	font-size:11px;
+	width:1000px;
+	overflow-x: hidden;
+	white-space:normal; !important
+	}
+
+.ui-jqgrid tr.jqgrow  td {
+  
+    white-space: normal;!important
+}
+	
+	.ui-jqgrid-labels {
+		font-size:11px;
+	}
+	
+.geoImageAction {
+	cursor:pointer;
+	border:0px solid #A6C9E2;
+	}	
+/************* Bandeau ******************* */
+#geoBandeau {
+	height:50px;
+	padding: 0px;
+	margin: 0px; 
+	border:0px solid #EFF4EE;
+	
+	}
+#geoBandeauLogo {
+	float:right;
+}
+
+#geoCartouche {
+	float:right;
+	text-align:center;
+	margin:10px;
+	border:1px solid #EFF4EE;
+	display:none;
+	
+
+}
+
+#geoContexte {
+	height:16px;
+	padding: 0px;
+	margin: 0px; 
+	background: #F5FFFF;
+	display:none;
+	float:left;
+	
+	}
+	
+
+	
+#geoLogin {
+	margin-left:255px;
+	}
+#geoOnglets {
+	display:none;
+	min-width: 800px;
+	width:1200px;
+	margin:auto;
+	/*width:expression(document.body.clientWidth < 1000 ? "1000px" : "auto" );*/
+	}
+#geoFormSaisie {
+	background-color:transparent;
+	}
+
+/* information sur l'�l�ment courant affich�es dans le bandeau */
+.Contexte {
+FONT:10pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:#2179c8;
+height:18px;
+padding-top:5px;
+padding-left:2px;
+}
+
+#geoContainer {
+	width: auto;
+	padding:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/****** Colonnes ******/
+#geoContainerColonnes {
+	background-color: #fffff;  
+	height:600px;
+	min-height:600px;	
+}
+
+#geoColonneGauche {
+ 	width:250px;
+ 	float:left; 
+ 	text-align: left; 
+ 	/* background: #EFEFDF; */
+ 	height:100%; 
+ 	display:block;
+ 	overflow-y:scroll;
+}
+
+#geoColonneMilieu{
+	background-color: #fffff;  
+	padding: 0px 0px 0px 0px;
+	/* background: #EBE7E7; */
+	height:auto; 
+	margin-left:255px;
+ }
+ 
+ #geoColonneMilieuGrillePreca{
+	background-color: white;  
+	padding: 0px 0px 0px 0px;
+	/* background: #EBE7E7; */
+	height:auto; 
+	margin-left:255px;
+ }
+ #geoColonneMilieuGrilleDem{
+	background-color: white;  
+	padding: 0px 0px 0px 0px;
+	/* background: #EBE7E7; */
+	height:auto; 
+	margin-left:255px;
+ }
+ 
+  #geoColonneMilieuGrilleTraceabilite{
+	background-color: white;  
+	padding: 0px 0px 0px 0px;
+	/* background: #EBE7E7; */
+	height:auto; 
+	margin-left:255px;
+ }
+   #geoColonneMilieuGrilleControleQualite{
+	background-color: white;  
+	padding: 0px 0px 0px 0px;
+	/* background: #EBE7E7; */
+	height:auto; 
+	margin-left:255px;
+ }
+  #geoColonneMilieuGrilleCommandesEmballages{
+	background-color: white;  
+	padding: 0px 0px 0px 0px;
+	/* background: #EBE7E7; */
+	height:auto; 
+	margin-left:255px;
+	margin-height:20px;
+	padding-top:20px;
+ }
+ 
+ #geoIframe {
+ margin-top:30px;
+ }
+ 
+ /*  ----------------footer---------------------- */ 
+#geoEnPied {
+	clear:left;
+	padding:0 10px 0 -1px;
+	margin:0px;
+	text-align: center;
+	width: 985px;
+	height:30px;
+	font: 9px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration:none;
+	background: #EFF4EE;
+	display:none;
+	
+} 
+#geoBoutonFermer {
+float:right;
+margin:5px;
+}
+
+/**********   ancien css qui servent *********/
+#bulle {
+background-color:#FFFF33; 
+text-align: center; 
+border: 1px solid #666; 
+position: absolute; 
+font:8pt "MS Sans Serif", sans-serif;
+}
+.mytitcol{
+background-color:#EFF6FB;
+COLOR:#000000;
+FONT:10pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:bold;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER:none;
+padding:2px;
+margin-bottom:2px;
+}
+
+/* une ligne dans la liste des expeditions */
+.myrow{
+COLOR:#000000;
+FONT:10pt "Verdana", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:normal;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER-STYLE:none;	
+margin-right:100px;
+}
+
+
+a:link, a:visited {	  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:#333367;	   
+FONT-WEIGHT:bold;
+} 
+
+.a_detail:link, .a_detail:visited {	  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:#2e7c71;	   
+FONT-WEIGHT:bold;
+} 
+.a_detail:hover {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+} 
+.a_detail:active {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+}
+
+.a_cloture:link, .a_cloture:visited {	  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:#C0C0C0;	   
+FONT-WEIGHT:bold;
+} 
+.a_cloture:hover {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+} 
+.a_cloture:active {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+}
+
+.a_lu:link, .a_lu:visited {	  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:#6fa7d1;	   
+FONT-WEIGHT:bold;
+} 
+.a_lu:hover {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+} 
+
+.a_lu:active {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+}
+
+.a_nonlu:link, .a_nonlu:visited {	  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:#333367;	   
+FONT-WEIGHT:bold;
+} 
+.a_nonlu:hover {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+} 
+.a_nonlu:active {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+}
+
+.a_active:link, .a_active:visited {	  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	   
+FONT-WEIGHT:bold;
+} 
+.a_active:hover {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+} 
+.a_active:active {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+}
+
+a:hover {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+}
+
+a:active {  
+FONT:8pt "MS Sans Serif", sans-serif;
+text-decoration:none;
+color:orange;	
+FONT-WEIGHT:bold;
+}
+
+/* header de niveau 1*/
+.header1{
+background-color:#EFF6FB;
+COLOR:#000000;
+FONT:10pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:bold;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER-STYLE:none;
+margin-bottom:10px; 
+padding:3px;
+}
+
+.header2 {
+/*background-color:#96C51C;*/
+background-color:#EFF6FB;
+COLOR:#000000;
+FONT:9pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:bold;
+TEXT-DECORATION:none;
+TEXT-ALIGN:center;
+height:16px;
+} 
+
+#geoErreur {
+background:white;
+display:none;
+font-size:11px; !important;
+}
+
+#geoMessage {
+padding:2px;
+position:absolute;
+width:auto;
+top:200px;
+left:450px;
+border:0px solid #94ce08;
+background:transparent;
+color:#3184bd;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; 
+font-weight: bold; 
+}
+
+#geoHeaderErreur {
+cursor:move;
+	}
+	
+.geoHeaderFlottant {
+cursor:move;
+height:15px;
+padding:4px;
+	}
+	
+.geoContainerFlottant{
+	background-color:white !important;
+	padding:5px;
+}
+	
+#geoContainerErreur {
+	}
+	
+#geoErreurEnPied {
+	text-align:center;
+	padding-bottom:5px;
+}
+
+#geoTableMessages {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px; 	
+	}
+
+.titreErreur {
+font-size:12px;
+font-weight:bold;
+text-align:left;
+}
+.titreWait {
+padding:2px;
+background:#94ce08;
+text-align:left;
+color:white;
+}
+
+#geoContainerMessage {
+	padding:5px;
+	}
+
+#geoLibelleMessage{
+padding:2px;
+color:#3184bd;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; 
+font-weight: bold;
+margin-left:10px;
+}
+
+.geoMessageServeur{
+padding:2px;
+color:#C6120F;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; 
+font-weight: bold;
+margin-left:10px;
+}
+
+
+/* label avec un aspect soulign� */
+.geoLabel {
+COLOR:#000000;
+FONT:8pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;FONT-WEIGHT:normal;
+TEXT-DECORATION:underline;
+TEXT-ALIGN:right;
+BORDER-STYLE:none;
+}
+
+/* valeur associ�e � un label */
+.geoValue {
+COLOR:#000000;
+FONT:8pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:normal;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER-STYLE:none
+}
+
+/* valeur associ�e � un label */
+.geoStatut {
+COLOR:#000000;
+FONT:8pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:bold;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER-STYLE:none
+}
+
+/* ligne d'un tableau de produits */
+.geoLigne {
+COLOR:#000000;
+FONT:8pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:normal;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+border-width:1px;
+border:red;
+border-color:red;
+border-style:solid;
+}
+
+.geoCell {
+border-style:none;
+}
+
+/* une ligne en 8 points */
+.myrowsmall{
+COLOR:#000000;
+FONT:8pt "Verdana", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:normal;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER-STYLE:none;	
+margin-right:100px;
+}
+
+/* une ligne en 8 points */
+.myrownarrow{
+COLOR:#000000;
+font-family: arial narrow; font-size: 8pt;
+FONT-STYLE:normal;
+FONT-WEIGHT:normal;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER-STYLE:none;	
+margin-right:100px;
+}
+
+.inputText {
+font-size:8pt;
+font-family:"MS Sans Serif";
+color:black;
+}
+.inputTextError {
+font-size:8pt;
+font-family:"MS Sans Serif";
+color:white;
+background:red;
+}
+
+.titreListe {
+font-size:11px;!important;
+font-family:Verdana;
+}
+.listeDrop {
+font-size:11px; !important
+font-family:Verdana;
+}
+
+.listeDropStandard {
+font-size:11px !important;
+font-family:Verdana !important;
+}
+
+.boldText {
+font-weight:bold;
+font-size:11pt;
+font-family:"MS Sans Serif";
+}
+
+.labelInputTextHeader {
+width:100px;
+font-size:9pt;
+font-family:"MS Sans Serif";
+}
+.labelInputText {
+font-size:8pt;
+font-family:"MS Sans Serif";
+}
+.titreProduit {
+font-size:9pt;
+font-family:"MS Sans Serif";
+text-decoration:underline;
+}
+
+#geoHidden {
+	display:none;
+	}
+
+/* valeur associ�e � un label */
+.value {
+COLOR:#000000;
+FONT:8pt "MS Sans Serif", sans-serif;
+FONT-STYLE:normal;
+FONT-WEIGHT:normal;
+TEXT-DECORATION:none;
+TEXT-ALIGN:left;
+BORDER-STYLE:none
+}
+
+
+
+/* redefinition de certains css car "overrides" par les templates JQuery */
+/* bouton documentation complete */
+#geoDocumentationComplete {
+	font-size:18px;
+	margin:5px;
+	}
+
+
+.ui-widget input {
+	font-size:11px;
+}
+
+/* reduction de la taille des boutons */
+.ui-button-text-only .ui-button-text {
+padding:0.1em 0.1em;
+}
+.ui-widget .ui-widget {
+font-size:11px;
+}
+
+.ui-menu {
+	background:white;
+}
+
+#ui-active-menuitem {
+font-size:1.0em;
+font-weight:normal;
+font-family:"MS Sans Serif",sans-serif;
+}
+
+.ui-menuitem {
+font-size:1.0em;
+font-weight:normal;
+font-family:"MS Sans Serif",sans-serif;
+}
+
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+font-family:"MS Sans Serif",sans-serif;
+}
+
+/* police pour autocomplete */
+.ui-autocomplete-input {
+	font-size:11px; !important
+}
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+
+#geoNavigationContexte {
+	height:16px;
+	padding: 0px;
+	margin: 0px; 
+	background: #F5FFFF;
+	font:10px "MS Sans Serif", sans-serif;
+	}
+
+#geoNavigationContexte a, #geoNavigationContexte a:visited {
+background:transparent url(../images/nav.gif) no-repeat scroll right 3px !important;
+color:#333367 !important;
+display:inline !important;
+font-family:"MS Sans Serif",sans-serif;
+font-size:10px !important;
+font-weight:normal !important;
+margin-left:0 !important;
+padding-left:0 !important;
+padding-right:15px;
+text-decoration:none !important;
+}
+
+.geoNavigationContexteInactive {
+color:black !important;
+display:inline !important;
+font-family:Verdana,Arial,Helvetica,sans-serif !important;
+font-size:10px !important;
+font-weight:bold !important;
+padding-left:3px;
+text-decoration:none !important;
+}
+
+#geoBack a, #geoBack a:visited {
+background:transparent url(../images/back.gif) no-repeat scroll left 3px !important;
+color:#333367 !important;
+display:inline !important;
+font-family:"MS Sans Serif",sans-serif;
+font-size:10px !important;
+font-weight:normal !important;
+margin-left:0 !important;
+padding-right:0 !important;
+padding-left:15px;
+text-decoration:none !important;
+}
+
+#geoBack a:hover {  
+color:orange !important;
+}
+
+input.date {
+	width: 72px;
+	color: #000;
+}
+
+#geoAccordeonContent {
+	height:auto;
+	}
+
+#geoIframeContainer {
+	background-color:white;
+}
+
+#geoTraceContainer {
+	background-color:white;
+}
+
+#geoGridChoixArticlesContainerPop {
+	background-color:white;
+	font-size:10px;
+}
+
+
+.geoIframeContainerDialog .ui-dialog-titlebar
+{ display:block; }
+
+
+.ui-jqgrid .ui-th-subgrid {
+    height: 10px;
+    font-size:10px;
+    font-weight:normal;
+}
+.ui-jqgrid .ui-subgrid tr.ui-subtblcell td {
+	font-size:10px;
+}
+
+#geoGridChoixArticles {
+	font-size:10px;
+}
+
+.GreyBackground {
+	background: #CCCCCC;
+}
+
+.PalInterBackground {
+	background:#EEEEEE;
+}
+
+/* css for timePicker */
+div.time-picker {
+  position: absolute;
+  height: 191px;
+  width:5em; /* needed for IE */
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #aaa;
+  z-index: 99;
+  margin: 0;
+}
+div.time-picker-12hours {
+  width:7em; /* needed for IE */
+}
+
+div.time-picker ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+div.time-picker li {
+  cursor: pointer;
+  height: 10px;
+  font: 12px/1 Helvetica, Arial, sans-serif;
+  padding: 4px 3px;
+}
+div.time-picker li.selected {
+  background: #0063CE;
+  color: #fff;
+}
+
+#geoConfirm {
+	background:red;
+	
+}
+
+.table-flottant {
+border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ border-collapse:collapse;
+ margin-bottom:15px;
+	
+}
+
+.ligne-flottant {
+border-width:1px;
+ border-style:solid; 
+ border-color:#a9c4eb;
+	
+}
+.cell-flottant {
+border-width:1px;
+ border-style:solid; 
+ border-color:#a9c4eb;
+}

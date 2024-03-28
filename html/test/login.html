@@ -1,0 +1,47 @@
+<div class="root">
+<div class="geoTarget" id="geoLogin">
+<form action="PBServlet" method="post" id="geoFormSaisie"  name="geoFormSaisie" >
+<input name="httpPBCommand" type="hidden" value="connexion"/>
+<div class="header1">demande de connexion</div>
+<table bordercolor="red" border="0" cellpadding="0" cellspacing="0">
+<tr style="font-style:italic" class="myrow">
+<td>veuillez saisir votre identifiant et votre mot de passe</td>
+</tr>
+</table>
+<br/>
+<table>
+<tr>
+<td class="myrow">identifiant</td>
+<td>
+<input type="text" style="font-size:14;" class="inputText" name="user_0" id="user_0" size="16" maxlength="16" value="" tabindex=""/>
+</td>
+</tr>
+<tr>
+<td class="myrow">mot de passe</td>
+<td>
+<input type="password" style="font-size:14;" class="inputText" name="pwd_0" id="pwd_0" size="16" maxlength="16" value="" tabindex=""/>
+</td>
+</tr>
+</table>
+<br/>
+<input value="" name="which_button" type="hidden"/>
+
+	<div class="desBoutons" nowrap='nowrap'>
+					<a href="#" onclick="$('#geoMessage').show();
+					document.geoFormSaisie.which_button.value='connection'; 
+					manageSubmit('geoFormSaisie');">
+					Connexion
+					</a>
+
+	</div>
+	
+
+</form>
+<div class="divwait" name="waitmessage" id="geoMessage" style="visibility:hidden">
+<div class="titreWait">Requête en cours</div>
+<img src="../images/loading.gif"/> Merci de patienter
+</div>
+<div class="diverror" name="errormessage" id="geoError" style="visibility:hidden"/>
+</div>
+</div>
+
